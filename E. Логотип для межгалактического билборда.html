@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'unsafe-inline' 'self'"/>
+        <style>
+            div {
+                width: 192px;
+                height: 192px;
+                border-radius: 36px;
+                background-color: #000;
+                overflow: hidden;
+            }
+
+            div:after  {
+                width: 96px;
+                height: 100%;
+                background: linear-gradient(178deg, rgba(0, 0, 0, 18%) 0px, transparent 7px), #f5f4f0;
+                display: block;
+                content: "";
+            }
+
+            div:before {
+                width: 100%;
+                height: 96px;
+                background: linear-gradient(145deg, #fcdd2e, #fcb600);
+                display: block;
+                content: "";
+            }
+        </style>
+        <title>Yandex YoungCon</title>
+    </head>
+    <body>
+    <div></div>
+    </body>
+</html>
